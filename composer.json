@@ -1,17 +1,17 @@
 {
-    "name": "author_username/package_name",
+    "name": "pforret/pf_pageinfo",
     "version": "1.1.1",
-    "description": "package_description",
+    "description": "retrieve content and metadata from any URL",
     "keywords": [
-        "author_username",
-        "package_name"
+        "pforret",
+        "pf_pageinfo"
     ],
-    "homepage": "https://github.com/author_username/package_name",
+    "homepage": "https://github.com/pforret/pf_pageinfo",
     "license": "MIT",
     "authors": [
         {
-            "name": "author_name",
-            "email": "author@email.com",
+            "name": "Peter Forret",
+            "email": "peter@forret.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "package_namespace\\class_name\\": "src"
+            "Pforret\\PfPageinfo\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "package_namespace\\class_name\\Tests\\": "tests"
+            "Pforret\\PfPageinfo\\Tests\\": "tests"
         }
     },
     "scripts": {
