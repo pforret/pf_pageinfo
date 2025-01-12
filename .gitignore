@@ -1,8 +1,10 @@
+.DS_Store
+.env
+.idea
+.php_cs.cache
+.phpunit.result.cache
 build
 composer.lock
+coverage
 docs
 vendor
-coverage
-.phpunit.result.cache
-.php_cs.cache
-.DS_Store
