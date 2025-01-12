@@ -3,8 +3,6 @@
 Github: 
 ![GitHub tag](https://img.shields.io/github/v/tag/pforret/pf_pageinfo)
 ![Tests](https://github.com/pforret/pf_pageinfo/workflows/Run%20Tests/badge.svg)
-![Psalm](https://github.com/pforret/pf_pageinfo/workflows/Detect%20Psalm%20warnings/badge.svg)
-![Styling](https://github.com/pforret/pf_pageinfo/workflows/Check%20&%20fix%20styling/badge.svg)
 
 Packagist: 
 [![Packagist Version](https://img.shields.io/packagist/v/pforret/pf_pageinfo.svg?style=flat-square)](https://packagist.org/packages/pforret/pf_pageinfo)
