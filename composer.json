@@ -22,9 +22,9 @@
         "pforret/pf_pageparser": "^1.2"
     },
     "require-dev": {
-        "roave/security-advisories": "dev-master",
         "laravel/pint": "^1",
-        "phpunit/phpunit": "^9.0"
+        "pestphp/pest": "^3.7",
+        "roave/security-advisories": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -42,7 +42,10 @@
         "format": "vendor/bin/pint"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
